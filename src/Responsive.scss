@@ -1,0 +1,131 @@
+        @media (max-width: 999999999999px) {
+            #about .skills-diagram .skill-4 {
+                width: 7em;
+                height: 7em;
+                line-height: 7em;
+            }
+        }
+        
+        @media(max-width: 1199px) {
+            #heroBanner {
+                .img-fluid {
+                    max-width: 90%;
+                }
+            }
+            #angularProject .angular-img {
+                display: none;
+            }
+            #reactProject .react-img img {
+                display: none;
+            }
+            #angularProject .angular-box {
+                margin-left: 0;
+                margin-top: 0;
+            }
+            #reactProject .card {
+                width: 100%;
+                margin-top: 0;
+            }
+            #reactProject {
+                padding-bottom: 50px;
+            }
+            .footer-section .top-arrow svg {
+                right: 2%;
+            }
+        }
+        
+        @media(max-width: 991px) {
+            #navbar {
+                button {
+                    display: block;
+                }
+            }
+            #heroBanner {
+                text-align: center;
+            }
+            #heroBanner::before {
+                width: 100%;
+            }
+            #heroBanner .hero-content h2::before {
+                top: -25%;
+                left: 50%;
+            }
+            .footer-section .single-cta svg {
+                font-size: 20px;
+            }
+            .footer-section .top-arrow svg {
+                right: 4%;
+                top: 1%;
+            }
+        }
+        
+        @media(max-width: 767px) {
+            #heroBanner .hero-content h2::before {
+                left: 50%;
+                width: 30%;
+            }
+            #services h2::before {
+                width: 15%;
+            }
+            .footer-section .top-arrow svg {
+                right: 16%;
+                top: 11%;
+            }
+            #about .about-heading h2::before {
+                left: 9%;
+                width: 17%;
+            }
+            #about .about-heading ul li {
+                font-size: 13px;
+            }
+            #featuredHeading h2::before {
+                width: 25%;
+            }
+            #experience h2::before {
+                width: 20%;
+            }
+            #about .skills-diagram .skill-2 {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 575px) {
+            #about .skills-diagram dt {
+                vertical-align: 0;
+            }
+        }
+        
+        @media (max-width: 524px) {
+            #about .about-heading ul li {
+                margin: 5px 0;
+            }
+            #blogs h2::before {
+                width: 20%;
+            }
+        }
+        
+        @media (max-width: 375px) {
+            #about .skills-diagram .skill-10 {
+                width: 10em;
+                height: 10em;
+                line-height: 10em;
+            }
+            #about .skills-diagram .skill-8 {
+                width: 6em;
+                height: 6em;
+                line-height: 6em;
+            }
+            #about .skills-diagram .skill-7 {
+                width: 4em;
+                height: 4em;
+                line-height: 4em;
+            }
+        }
+        
+        @media (max-width: 360px) {
+            #heroBanner {
+                h5 {
+                    font-size: 1rem;
+                }
+            }
+        }
